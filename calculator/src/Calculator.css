@@ -1,0 +1,42 @@
+.calculator {
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  }
+  
+  .keypad {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    font-size: 24px;
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #2196f3;
+    cursor: pointer;
+  }
+  
+  button.operator {
+    background-color: #f44336;
+  }
+  
+  input {
+    font-size: 32px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+  }
+  

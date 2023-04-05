@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="ab">Headuing</h1>
+    <script>
+        a= function(){
+            return ("Hello brother");
+        }
+
+        document.getElementById('ab').innerHTML=a();
+        </script>
+
+        <script>
+            // ex 1
+            yo = () => {
+                return "yo franz";
+            }
+            // ex 2
+            halo= () => "ae Halo bhai ";
+
+            // ex 3
+            ArrowFunctionVar = (val) => "kevu "+ val;
+
+            BhaiBhai = a => "yo "+a;
+        </script>
+        <button type="button" onclick="document.getElementById('ab').innerHTML=yo()">yo</button>
+        <button type="button" onclick="document.getElementById('ab').innerHTML=halo()">halo</button>
+        <button type="button" onclick="document.getElementById('ab').innerHTML=ArrowFunctionVar('bhai')">Bhai</button>
+        <button type="button" onclick="document.getElementById('ab').innerHTML=BhaiBhai('Boi')">boi </button>
+
+
+</body>
+</html>
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="qwer"></div>
+    
+    <script>
+        import React from 'react';
+        import ReactDOM from 'react-dom/client';
+        function Hello() {
+            const myArray = ['apple', 'banana', 'orange'];
+
+            const myList = myArray.map((item) => <p>{item}</p>)
+        return myList;
+      }
+
+      ReactDOM.render(<Hello />, document.getElementById('mydiv'))
+   
+        
+    </script>
+</body>
+</html>
