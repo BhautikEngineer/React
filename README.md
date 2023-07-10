@@ -2,6 +2,7 @@
 TO do list 
 Counter using hooks
 
+Make counter using usestate and useeffect for doubling it.
 
 ### Hook based tasks
 Task 1: Create a Form Validation Component
