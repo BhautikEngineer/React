@@ -42,6 +42,24 @@ Task 3: Create a Debounced Search Component
 These tasks should give you a good starting point to practice different React hooks and their use cases. Feel free to modify and enhance the tasks based on your learning goals and preferences.
 
 
+task that utilizes `useContext` in React for managing student information:
+
+Task: Student Management System
+
+Create a Student Management System where you can add, update, and display student information using React's `useContext` hook.
+
+1. Create a `StudentContext` using `createContext()` to store the student data.
+2. Create a form component (`StudentForm`) to capture the student's name, age, and grade.
+3. Implement a submit handler in `StudentForm` that adds the student to the student list in the context using the `useState` hook.
+4. Create a component (`StudentList`) that displays a list of all students using the `useContext` hook to access the student data from the context.
+5. Implement an update handler in `StudentList` that allows editing student information and updating the context.
+6. Display the `StudentForm` and `StudentList` components in the main app component.
+7. Style the components with CSS as desired.
+
+This task demonstrates how to use `useContext` to manage state and share data between components in a student management system. By adding students through the form and updating them in the list, you can effectively manage the student data using the React Context API.
+
+Note: To complete this task, you need to have a basic understanding of React, including `useState`, `useContext`, and component rendering.
+
 
 ## advanced tasks based on react
 Make covid dashboard using axios. 
