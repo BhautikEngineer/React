@@ -60,6 +60,19 @@ This task demonstrates how to use `useContext` to manage state and share data be
 
 Note: To complete this task, you need to have a basic understanding of React, including `useState`, `useContext`, and component rendering.
 
+Task: Calculation Memoization
+
+Implement a calculation memoization task using React's `useMemo` hook. The goal is to optimize the performance of repetitive calculations by memoizing the results.
+
+1. Create a component that takes two input numbers as props.
+2. Inside the component, define a memoized function using `useMemo` that calculates the sum of the two input numbers.
+3. Display the calculated sum in the component's render output.
+4. Test the component by passing different input numbers and observing the calculated sum. Ensure that the calculation is only performed when the input numbers change.
+
+This task demonstrates the use of `useMemo` to memoize the calculation result. By memoizing the calculation, the result is stored and only recalculated if the input numbers change. This optimization can significantly improve the performance of expensive calculations, especially in scenarios where the calculations are repeated frequently or involve complex operations.
+
+Note: This task assumes basic familiarity with React and the `useMemo` hook.
+
 
 ## advanced tasks based on react
 Make covid dashboard using axios. 
