@@ -44,7 +44,7 @@ These tasks should give you a good starting point to practice different React ho
 
 task that utilizes `useContext` in React for managing student information:
 
-Task: Student Management System
+Task 4: Student Management System
 
 Create a Student Management System where you can add, update, and display student information using React's `useContext` hook.
 
@@ -60,7 +60,7 @@ This task demonstrates how to use `useContext` to manage state and share data be
 
 Note: To complete this task, you need to have a basic understanding of React, including `useState`, `useContext`, and component rendering.
 
-Task: Calculation Memoization
+Task 5: Calculation Memoization
 
 Implement a calculation memoization task using React's `useMemo` hook. The goal is to optimize the performance of repetitive calculations by memoizing the results.
 
