@@ -73,9 +73,9 @@ This task demonstrates the use of `useMemo` to memoize the calculation result. B
 
 Note: This task assumes basic familiarity with React and the `useMemo` hook.
 
-Certainly! Here's a task based on custom hooks:
+ task based on custom hooks:
 
-Task: Create a custom hook to fetch data from an API.
+Task 6: Create a custom hook to fetch data from an API.
 
 Description:
 Create a custom hook called `useFetchData` that accepts a URL as a parameter and handles fetching data from that URL using the `fetch` function or any other HTTP library of your choice. The hook should handle loading state, error handling, and returning the fetched data.
