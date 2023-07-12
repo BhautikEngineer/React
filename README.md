@@ -73,6 +73,56 @@ This task demonstrates the use of `useMemo` to memoize the calculation result. B
 
 Note: This task assumes basic familiarity with React and the `useMemo` hook.
 
+Certainly! Here's a task based on custom hooks:
+
+Task: Create a custom hook to fetch data from an API.
+
+Description:
+Create a custom hook called `useFetchData` that accepts a URL as a parameter and handles fetching data from that URL using the `fetch` function or any other HTTP library of your choice. The hook should handle loading state, error handling, and returning the fetched data.
+
+Instructions:
+1. Create a new file named `useFetchData.js`.
+2. Implement the `useFetchData` hook in the `useFetchData.js` file.
+3. The hook should accept a URL as a parameter.
+4. Inside the hook, use the `useEffect` hook to perform the API request when the component using the hook mounts or when the URL changes.
+5. Handle the loading state by setting an initial value of `null` and updating it to `true` when the API request starts, and then updating it to `false` when the request completes.
+6. Handle errors by setting an initial value of `null` and updating it to the error message if the API request fails.
+7. Use the `useState` hook to store the fetched data with an initial value of `null` and update it with the fetched data when the request succeeds.
+8. Return the loading state, error, and fetched data as an array from the hook.
+9. Export the `useFetchData` hook from the `useFetchData.js` file.
+
+Example usage:
+```jsx
+import React from 'react';
+import useFetchData from './useFetchData';
+
+const App = () => {
+  const url = 'https://api.example.com/data';
+  const [loading, error, data] = useFetchData(url);
+
+  if (loading) {
+    return <p>Loading...</p>;
+  }
+
+  if (error) {
+    return <p>Error: {error}</p>;
+  }
+
+  return (
+    <div>
+      <h1>Data</h1>
+      {data && <pre>{JSON.stringify(data, null, 2)}</pre>}
+    </div>
+  );
+};
+
+export default App;
+```
+
+In this example, we import and use the `useFetchData` hook to fetch data from the specified URL (`https://api.example.com/data`). We handle the loading state and error cases by displaying appropriate messages or rendering the fetched data if available.
+
+You can customize the `useFetchData` hook to fit your specific API requirements, including handling headers, request options, or additional logic.
+
 
 ## advanced tasks based on react
 Make covid dashboard using axios. 
